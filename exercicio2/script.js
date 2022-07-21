@@ -1,0 +1,10 @@
+let primeiroNum=Number(prompt("Insira um numero"));
+let segundoNum=Number(prompt("Insira mais um numero"));
+let resto= primeiroNum % segundoNum;
+let resto2= segundoNum % primeiroNum;
+console.log(primeiroNum);
+console.log(segundoNum);
+console.log("O primeiro numero é maior que o segundo?",primeiroNum>segundoNum);
+console.log("O primeiro numero é igual ao segundo?",primeiroNum===segundoNum);
+console.log("O primeiro numero é divisível pelo segundo",resto===0);
+console.log("O segundo numero é divisível pelo primeiro?",resto2===0);
